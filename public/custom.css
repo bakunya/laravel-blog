@@ -1,0 +1,41 @@
+.mh-100 {
+    min-height: 100vh;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.image-article {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.img-card-article {
+    height: 200px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.w-fit-content {
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.white-space-pre-line {
+    white-space: pre-line;
+}
+
+#not-found {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: grey !important;
+}
